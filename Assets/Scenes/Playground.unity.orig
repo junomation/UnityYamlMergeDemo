@@ -874,16 +874,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
-<<<<<<< HEAD
       propertyPath: MoveSpeed
+<<<<<<< HEAD
       value: 5
+=======
+      value: 3
+>>>>>>> c57ea92 (create 3 way merge conflict)
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918491, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
-=======
->>>>>>> bb6574d (update env)
       propertyPath: m_SlopeLimit
-      value: 88
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
