@@ -876,10 +876,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SlopeLimit
 <<<<<<< HEAD
-      value: 32
+      value: 88
 =======
-      value: 35
->>>>>>> 0665962 (test1 jh)
+      value: 12
+>>>>>>> 70def5a (merge57)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
