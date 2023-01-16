@@ -1,7 +1,18 @@
 # UnityYamlMerge Tool Demostration 2023 (中文教程在下面 - Chinese tutorial is down below)
 
+# Why this matter to you?
+You are trying to edit a Unity3d project with others, that you or others are both editing a scene object or a prefab object in unity, this causes merge conflict that's insane for human to read.  Here's a solution that may work for you!
+
+# Pre-requisite
+
+Pre-requisite: In unity3d project make sure you you have the following set in Unity Editor -> Edit -> Project Settings -> Under Asset Serialization: Mode -> "force text" set
+
 ## Part 1: The Setup
 The demostration is done on windows environment, you can chceck reference to other system via here: https://docs.unity3d.com/Manual/SmartMerge.html
+
+
+And in the version control have "Visible Meta Files" option set
+
 
 UnityYamlMerge tool comes as a default tool with Unity Editor, you can find it in the Unity's Editor file path at `Editor/Data/Tools`
 
@@ -47,7 +58,7 @@ Note that when changing this file, it might have issue with file access.  Person
 Please also note that default location for `kdiff3.exe` installation is `C:\Program Files\KDiff3`
 If you don't have kdiff3 installed you can find it at https://sourceforge.net/projects/kdiff3/
 
-## 步骤 2: 合并冲突? 怎么用UnityYamlMerge工具来解决合并冲突?
+## Part 2: Merge conflict? How to resolve with UnityYamlMerge tool?
 
 What to do on the command line to use this tool?
 
@@ -71,6 +82,14 @@ Everything is fine again!
 
 
 # UnityYamlMerge Tool 工具展示 2023
+
+# 为什么这对你重要？
+因为你和你的朋友可能一起在修改该一个Unity3d的场景文件或者Prefab文件，这个时候他可能造成文件合并冲突，不是人能够看懂的那种！那么UnityYamlMerge工具就是你最亲爱的伙伴与朋友，您值得用它一试。
+
+# 初步要求
+在Unity3D编辑器的 Edit -> Project Settings -> Under Asset Serialization: Mode -> "force text" 
+
+然后在Version Control里面选择 "Visible Meta Files" 选项
 
 ## 步骤 1: 安装
 这是在windows平台的展示，其他平台的具体操作可以参考: https://docs.unity3d.com/Manual/SmartMerge.html
@@ -117,7 +136,7 @@ prefab use "C:\Program Files\KDiff3\kdiff3.exe" "%b" "%l" "%r" -o "%d"
  `kdiff3.exe` 的默认安装路径是 `C:\Program Files\KDiff3`
 如果你在机器上找不到他的话，请去 https://sourceforge.net/projects/kdiff3/按装Kdiff3
 
-## Part 2: Merge conflict? How to resolve with UnityYamlMerge tool?
+## 步骤 2: 合并冲突? 怎么用UnityYamlMerge工具来解决合并冲突?
 
 怎么在命令行使用这个呢？
 
